@@ -1,14 +1,15 @@
 require 'fastlane/action'
-require_relative '../helper/lark_helper'
+require 'fastlane/plugin/lark/helper/lark_helper'
+require 'json'
+require 'net/http'
+require 'openssl'
+require 'base64'
+require 'uri'
 
 module Fastlane
   module Actions
     class LarkAction < Action
       def self.run(params)
-        require 'json'
-        require 'net/http'
-        require 'openssl'
-        require 'base64'
 
         message = params[:message]
         webhook_url = params[:webhook_url]

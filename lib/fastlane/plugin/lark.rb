@@ -1,3 +1,4 @@
+require 'fastlane'
 require 'fastlane/plugin/lark/version'
 
 module Fastlane
