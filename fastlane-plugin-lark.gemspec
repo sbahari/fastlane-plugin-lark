@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = 'sbahari1090@gmail.com'
 
   spec.summary       = 'Fastlane plugin to send webhook notification to lark'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-lark"
+  spec.homepage      = "https://github.com/sbahari/fastlane-plugin-lark"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*.rb"] + %w(README.md LICENSE)
